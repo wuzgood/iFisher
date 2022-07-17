@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF200B952877A00F00529813 /* FishRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF200B942877A00F00529813 /* FishRow.swift */; };
+		CF200B982877A9CE00529813 /* FishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF200B972877A9CE00529813 /* FishDetailView.swift */; };
+		CF200B9A2877AA1F00529813 /* ImageLoadSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF200B992877AA1F00529813 /* ImageLoadSave.swift */; };
+		CF3063CF287763630099F4A6 /* FishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063CE287763630099F4A6 /* FishListView.swift */; };
+		CF3063D1287766FA0099F4A6 /* NewFishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063D0287766FA0099F4A6 /* NewFishView.swift */; };
+		CF3063D5287767710099F4A6 /* DBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063D4287767710099F4A6 /* DBViewModel.swift */; };
+		CF427DA72877732F00CBB8A0 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CF427DA62877732F00CBB8A0 /* Realm */; };
+		CF427DA92877732F00CBB8A0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF427DA82877732F00CBB8A0 /* RealmSwift */; };
+		CF427DAC287781D900CBB8A0 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF427DAB287781D900CBB8A0 /* Formatters.swift */; };
+		CF427DB02877856000CBB8A0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF427DAF2877856000CBB8A0 /* ImagePicker.swift */; };
+		CFA1FF0F287862A700C88FFB /* AnnotationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1FF0E287862A700C88FFB /* AnnotationItem.swift */; };
+		CFC5A1C328784D6100B6146E /* Anecdotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5A1C228784D6100B6146E /* Anecdotes.swift */; };
+		CFC5A1C5287850A800B6146E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5A1C4287850A800B6146E /* LocationManager.swift */; };
+		CFEA1B97287770B50038D7F4 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA1B96287770B50038D7F4 /* Fish.swift */; };
 		CFF1EFBC2873803C00683F61 /* iFishermanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1EFBB2873803C00683F61 /* iFishermanApp.swift */; };
 		CFF1EFBE2873803C00683F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1EFBD2873803C00683F61 /* ContentView.swift */; };
 		CFF1EFC02873803C00683F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF1EFBF2873803C00683F61 /* Assets.xcassets */; };
@@ -14,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF200B942877A00F00529813 /* FishRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishRow.swift; sourceTree = "<group>"; };
+		CF200B972877A9CE00529813 /* FishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDetailView.swift; sourceTree = "<group>"; };
+		CF200B992877AA1F00529813 /* ImageLoadSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadSave.swift; sourceTree = "<group>"; };
+		CF3063CE287763630099F4A6 /* FishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishListView.swift; sourceTree = "<group>"; };
+		CF3063D0287766FA0099F4A6 /* NewFishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFishView.swift; sourceTree = "<group>"; };
+		CF3063D4287767710099F4A6 /* DBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBViewModel.swift; sourceTree = "<group>"; };
+		CF427DAB287781D900CBB8A0 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		CF427DAF2877856000CBB8A0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CFA1FF0E287862A700C88FFB /* AnnotationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationItem.swift; sourceTree = "<group>"; };
+		CFC5A1C228784D6100B6146E /* Anecdotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anecdotes.swift; sourceTree = "<group>"; };
+		CFC5A1C4287850A800B6146E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CFEA1B96287770B50038D7F4 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
 		CFF1EFB82873803C00683F61 /* iFisherman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFisherman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF1EFBB2873803C00683F61 /* iFishermanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFishermanApp.swift; sourceTree = "<group>"; };
 		CFF1EFBD2873803C00683F61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +52,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF427DA92877732F00CBB8A0 /* RealmSwift in Frameworks */,
+				CF427DA72877732F00CBB8A0 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF200B962877A1AF00529813 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF200B942877A00F00529813 /* FishRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF3063CD2877634A0099F4A6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CF3063CE287763630099F4A6 /* FishListView.swift */,
+				CF3063D0287766FA0099F4A6 /* NewFishView.swift */,
+				CF200B972877A9CE00529813 /* FishDetailView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CF3063D22877674E0099F4A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF3063D4287767710099F4A6 /* DBViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF3063D3287767540099F4A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFEA1B96287770B50038D7F4 /* Fish.swift */,
+				CFC5A1C228784D6100B6146E /* Anecdotes.swift */,
+				CFA1FF0E287862A700C88FFB /* AnnotationItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF427DAA287781C800CBB8A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF427DAB287781D900CBB8A0 /* Formatters.swift */,
+				CF200B992877AA1F00529813 /* ImageLoadSave.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF427DAD287781E300CBB8A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1EFBB2873803C00683F61 /* iFishermanApp.swift */,
+				CFF1EFBD2873803C00683F61 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CF427DAE2877855100CBB8A0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CF427DAF2877856000CBB8A0 /* ImagePicker.swift */,
+				CFC5A1C4287850A800B6146E /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		CFF1EFAF2873803C00683F61 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +142,15 @@
 		CFF1EFBA2873803C00683F61 /* iFisherman */ = {
 			isa = PBXGroup;
 			children = (
-				CFF1EFBB2873803C00683F61 /* iFishermanApp.swift */,
-				CFF1EFBD2873803C00683F61 /* ContentView.swift */,
-				CFF1EFBF2873803C00683F61 /* Assets.xcassets */,
+				CF427DAD287781E300CBB8A0 /* App */,
+				CF427DAA287781C800CBB8A0 /* Extensions */,
+				CF427DAE2877855100CBB8A0 /* Managers */,
+				CF3063D3287767540099F4A6 /* Model */,
+				CF3063D22877674E0099F4A6 /* ViewModel */,
+				CF200B962877A1AF00529813 /* Views */,
+				CF3063CD2877634A0099F4A6 /* Scenes */,
 				CFF1EFC12873803C00683F61 /* Preview Content */,
+				CFF1EFBF2873803C00683F61 /* Assets.xcassets */,
 			);
 			path = iFisherman;
 			sourceTree = "<group>";
@@ -83,6 +179,10 @@
 			dependencies = (
 			);
 			name = iFisherman;
+			packageProductDependencies = (
+				CF427DA62877732F00CBB8A0 /* Realm */,
+				CF427DA82877732F00CBB8A0 /* RealmSwift */,
+			);
 			productName = iFisherman;
 			productReference = CFF1EFB82873803C00683F61 /* iFisherman.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +203,7 @@
 				};
 			};
 			buildConfigurationList = CFF1EFB32873803C00683F61 /* Build configuration list for PBXProject "iFisherman" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +211,9 @@
 				Base,
 			);
 			mainGroup = CFF1EFAF2873803C00683F61;
+			packageReferences = (
+				CF427DA52877732F00CBB8A0 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = CFF1EFB92873803C00683F61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +241,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF1EFBE2873803C00683F61 /* ContentView.swift in Sources */,
+				CFEA1B97287770B50038D7F4 /* Fish.swift in Sources */,
+				CF427DAC287781D900CBB8A0 /* Formatters.swift in Sources */,
+				CF200B982877A9CE00529813 /* FishDetailView.swift in Sources */,
+				CF3063D5287767710099F4A6 /* DBViewModel.swift in Sources */,
+				CFA1FF0F287862A700C88FFB /* AnnotationItem.swift in Sources */,
+				CF3063CF287763630099F4A6 /* FishListView.swift in Sources */,
+				CF427DB02877856000CBB8A0 /* ImagePicker.swift in Sources */,
 				CFF1EFBC2873803C00683F61 /* iFishermanApp.swift in Sources */,
+				CFC5A1C328784D6100B6146E /* Anecdotes.swift in Sources */,
+				CF200B952877A00F00529813 /* FishRow.swift in Sources */,
+				CFC5A1C5287850A800B6146E /* LocationManager.swift in Sources */,
+				CF3063D1287766FA0099F4A6 /* NewFishView.swift in Sources */,
+				CF200B9A2877AA1F00529813 /* ImageLoadSave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +385,15 @@
 				DEVELOPMENT_TEAM = 7ZR6YQA8DL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFisher;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению нужен доступ к камере чтобы все могли заценить улов";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Приложению нужен доступ к локации потому что так нужно";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,7 +403,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +418,15 @@
 				DEVELOPMENT_TEAM = 7ZR6YQA8DL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFisher;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению нужен доступ к камере чтобы все могли заценить улов";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Приложению нужен доступ к локации потому что так нужно";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +462,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF427DA52877732F00CBB8A0 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF427DA62877732F00CBB8A0 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF427DA52877732F00CBB8A0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		CF427DA82877732F00CBB8A0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF427DA52877732F00CBB8A0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFF1EFB02873803C00683F61 /* Project object */;
 }
